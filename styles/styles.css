@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #e6e6e6;
+}
+.logo{
+    display: block;
+    margin: auto;
+}
+.navbar-nav{
+    font-family: 'Hind', sans-serif;
+    font-size: 14px;
+}
+.cards-padre{
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    gap: 1rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+.cards-hijo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    order: -1;
+}
+.img-cards{
+    width: 200px;
+    height: 200px;
+    margin-top: 1rem;
+}
+.boton-cards{
+    background-color: #1B213C;
+    color: white;
+    font-weight: 500;
+    padding: 8px;
+    border-radius: 40px 40px 40px 40px;
+    -moz-border-radius: 40px 40px 40px 40px;
+    -webkit-border-radius: 40px 40px 40px 40px;
+}
+.botones{
+    color: white;
+}
+.boton-cards:hover{
+    color: rgb(204, 204, 204);
+    box-shadow: 0px 0px 30px -14px rgba(0,0,0,0.75);
+}
+.bajada{
+    color: #1B213C;
+    background-color: #e6e6e6;
+    margin: 0px;
+    font-family:'Hind', sans-serif;
+    font-size: 14px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+    
+}
+.bajada2{
+    display: inline;
+    padding-right: 3rem;
+    padding-left: 3rem;
+}
+.hijo1{
+    justify-self: start;
+}
+.menu{
+    background-color: #f8f9fa;
+    padding: 1rem;
+    list-style: none;
+    font-family:'Hind', sans-serif;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+a{
+    text-decoration: none;
+}
+.padre{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    justify-items: center;
+}
+.portada{
+    height: 910px;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+#nuestros-servicios{
+    background-color: #e6e6e6;
+    border-radius: 50px 50px 50px 50px;
+    font-size: 18px;
+    margin-right: 8rem;
+    margin-left: 8rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    padding-bottom: 2rem;
+}
+#como-comprar{
+    font-size: 18px;
+    margin-right: 8rem;
+    margin-left: 8rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    padding-bottom: 2rem;
+}
+h1{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-bottom: 0;
+}
+h2{
+    color: black;
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+}
+p{
+    color: black;
+    text-align: center;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
+ul{
+    list-style: none;
+}
+footer{
+    background-color: #e6e6e6;
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+/*MEDIA QUERIES*/
+@media screen and (max-width:768px){
+.logo{
+    width: 768px;
+    }
+.bajada{
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+    font-size: 10px;
+    }
+.bajada2{
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+    }
+#nuestros-servicios, #como-comprar{
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+h5{
+    font-size: 14px;
+    background-color: white;
+}
+p{
+    font-size: 16px;
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
+}
+@media screen and (max-width:425px){
+.logo{
+    width: 425px;
+    }
+.bajada{
+    padding-left: 0rem;
+    padding-right: 0rem;
+    font-size: 9px;
+    }
+    .bajada2{
+        padding-right: 0,1rem;
+        padding-left: 0,1rem;
+    }
+.cards-padre{
+    grid-template-columns: 1fr;
+}
+    h5{
+        font-size: 12px;
+        background-color: white;
+    }
+    p{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 320px){
+.logo{
+    width: 320px;
+    }.bajada{
+        padding-left: 0rem;
+        padding-right: 0rem;
+        font-size: 8px;
+        }
+        .bajada2{
+            padding-right: 0,1rem;
+            padding-left: 0,1rem;
+        }
+        .cards-padre{
+            grid-template-columns: 1fr;
+        }
+        li{
+            padding: 2px;
+        }
+        .productos{
+            height: 90%;
+            width: 90%;
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+        h5{
+            font-size: 10px;
+            background-color: white;
+        }
+        p{
+            font-size: 8px;
+        }
+    }
