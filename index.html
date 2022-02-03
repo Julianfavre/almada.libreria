@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Librería Almada</title>
+    <link rel="shortcut icon" href="./img/Favicon.png">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!--GOOGLE FONTS-->
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@600;700&family=Kanit:wght@400;500&display=swap" rel="stylesheet">
+    <!--HOJAS DE ESTILO-->
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                  <li class="nav-item">
+                    <a class="nav-link" href="./index.html">INICIO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#nuestros-servicios">NUESTROS SERVICIOS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#como-comprar">CÓMO COMPRAR</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      PRODUCTOS
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                      <li><a class="dropdown-item" href="#">LIBRERÍA</a></li>
+                      <li><a class="dropdown-item" href="#">PAPELERÍA</a></li>
+                      <li><a class="dropdown-item" href="#">COMPUTACIÓN</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+      <a href="./index.html"><img class="logo" src="./img/Portada.jpg" alt="logo_almada"></a>
+      <ul class="bajada">
+        <li class="bajada2"><img src="./img/IconoLibreria.png" alt="libreria"> ARTÍCULOS DE LIBRERÍA</li>
+        <li class="bajada2"><img src="./img/IconoTinta.png" alt="toner"> RECARGA DE CARTUCHOS TONER</li>
+        <li class="bajada2"><img src="./img/IconoImpresora.png" alt="impresora"> TRABAJOS DE IMPRESIÓN</li>
+        <li class="bajada2"><img src="./img/IconoCamion.png" alt="camion"> ENVÍOS A ROSARIO Y ALREDEDORES</li>
+      </ul>
+    </header>
+    <div class="cards-padre">
+      <div class="cards-hijo">
+        <h2>LIBRERÍA</h2>
+        <div> <img src="./img/Card-Libreria.png" class="img-cards" alt="libreria"></div>
+        <button class="boton-cards"><a class="botones" href="./vistas/libreria.html">VER PRODUCTOS</a></button>
+      </div>
+      <div class="cards-hijo">
+        <h2>PAPELERÍA</h2>
+        <div> <img src="./img/Card-Papeleria.png" class="img-cards" alt="papeleria"></div>
+        <button class="boton-cards"><a class="botones" href="./vistas/papeleria.html">VER PRODUCTOS</a></button>
+      </div>
+      <div class="cards-hijo">
+        <h2>COMPUTACIÓN</h2>
+        <div> <img src="./img/Card-Computacion.png" class="img-cards" alt="computacion"></div>
+        <button class="boton-cards"><a class="botones" href="./vistas/computacion.html">VER PRODUCTOS</a></button>
+      </div>
+    </div>
+    <div id="nuestros-servicios">
+      <h1>NUESTROS SERVICIOS</h1>
+      <p>Somos una distribuidora familiar con más de 50 años de experiencia como librería y papelería comercial. Nuestros servicios incluyen la venta y recarga de cartuchos (originales y alternativos), trabajos de impresión, envío de resmas, sellos personalizados, encuadernados de libros contables y equipos de computación. Realizamos envíos a Rosario y alrededores, sin venta directa al público.</p>
+    </div>
+    <div id="como-comprar">
+      <h1>CÓMO REALIZAR PEDIDOS</h1>
+      <p>Utilizamos cualquiera de nuestros canales de comunicación para tomar pedidos y contestar consultas. Actualmente aconsejamos corroborar el precio y la disponibilidad de productos, ya que pueden haber modelos que aún no estén cargados en la página, o artículos que no estén disponibles. Los envíos se realizan los días martes y viernes.</p>
+    </div>
+     <!-- Option 1: Bootstrap Bundle with Popper -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <footer>
+      <ul>
+        <li><img src="./img/IconoUbicacion.png" class="icono" alt="IconoUbicacion">Rosario - Argentina</li>
+        <li><img src="./img/IconoWhatsApp.png" class="icono" alt="IconoWhatsApp"> 3416139826 - <img src="./img/IconoTelefono.png" class="icono" alt="IconoTeléfono"> 4383831</li>
+        <li><img src="./img/IconoMail.png" class="icono" alt="IconoMail"> ventas@almadaycia.com.ar</li>
+        <li><img src="./img/IconoInstagram.png" class="icono" alt="IconoInstagram"> /almada.libreria</li>
+        </ul>
+    </footer>
+</body>
+</html>
