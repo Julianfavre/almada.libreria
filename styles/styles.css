@@ -119,6 +119,7 @@ h1{
 }
 h2{
     color: black;
+    text-align: center;
     margin-top: 2rem;
     margin-bottom: 0rem;
 }
@@ -155,17 +156,14 @@ footer{
         padding-left: 0.5rem;
     }
 #nuestros-servicios, #como-comprar{
-    margin-left: 6rem;
-    margin-right: 6rem;
-}
-h5{
-    font-size: 14px;
-    background-color: white;
+    font-size: 16px;
+    margin-left: 4rem;
+    margin-right: 4rem;
 }
 p{
     font-size: 16px;
-    margin-left: 6rem;
-    margin-right: 6rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
 }
 }
 @media screen and (max-width:425px){
@@ -196,15 +194,17 @@ p{
         padding-right: 0.1rem;
         padding-left: 0.1rem;
     }
+#nuestros-servicios, #como-comprar{
+        font-size: 12px;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
 .cards-padre{
     grid-template-columns: 1fr;
 }
-    h5{
-        font-size: 12px;
-        background-color: white;
-    }
     p{
-        font-size: 10px;
+        margin-left: 2rem;
+        margin-right: 2rem;
     }
 }
 @media screen and (max-width:375px){
@@ -235,15 +235,17 @@ p{
         padding-right: 0.1rem;
         padding-left: 0.1rem;
         }
+#nuestros-servicios, #como-comprar{
+            font-size: 12px;
+            margin-left: 1rem;
+            margin-right: 1rem;
+        }
     .cards-padre{
         grid-template-columns: 1fr;
     }
-        h5{
-            font-size: 12px;
-            background-color: white;
-        }
         p{
-            font-size: 10px;
+            margin-left: 1rem;
+            margin-right: 1rem;
         }
 }
 @media screen and (max-width: 320px){
@@ -273,6 +275,11 @@ p{
             padding-right: 0.1rem;
             padding-left: 0.1rem;
         }
+#nuestros-servicios, #como-comprar{
+            font-size: 10px;
+            margin-left: 1rem;
+            margin-right: 1rem;
+        }
         .cards-padre{
             grid-template-columns: 1fr;
         }
@@ -285,11 +292,8 @@ p{
             margin-left: 5%;
             margin-right: 5%;
         }
-        h5{
-            font-size: 10px;
-            background-color: white;
-        }
         p{
-            font-size: 8px;
+            margin-left: 1rem;
+            margin-right: 1rem;
         }
     }
