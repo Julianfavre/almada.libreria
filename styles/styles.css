@@ -13,11 +13,21 @@ header{
     font-family: 'Hind', sans-serif;
     font-size: 14px;
 }
-.cards-padre{
+
+.cards-padre-index{
     display: grid;
     grid-template-columns: repeat(3,3fr);
     gap: 1rem;
-    padding-top: 4rem;
+    padding-top: 0rem;
+    padding-bottom: 4rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+.cards-padre{
+    display: grid;
+    grid-template-columns: repeat(4,4fr);
+    gap: 1rem;
+    padding-top: 0rem;
     padding-bottom: 4rem;
     padding-right: 2rem;
     padding-left: 2rem;
@@ -50,7 +60,7 @@ header{
     color: rgb(204, 204, 204);
     box-shadow: 0px 0px 30px -14px rgba(0,0,0,0.75);
 }
-.bajada{
+.breadcrumb{
     color: #1B213C;
     background-color: #e6e6e6;
     margin: 0px;
@@ -61,13 +71,11 @@ header{
     text-align: center;
     
 }
+.bajada{
+    background-color: #e6e6e6;
+}
 .logo2{
     display: none;
-}
-.bajada2{
-    display: inline;
-    padding-right: 3rem;
-    padding-left: 3rem;
 }
 .hijo1{
     justify-self: start;
@@ -160,6 +168,9 @@ footer{
     margin-left: 4rem;
     margin-right: 4rem;
 }
+.cards-padre{
+    grid-template-columns: repeat(3,3fr);
+}
 p{
     font-size: 16px;
     margin-left: 4rem;
@@ -171,8 +182,9 @@ p{
     width: 425px;
     }
 .bajada{
+    text-align: center;
     padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-bottom: 0rem;
     padding-left: 0rem;
     padding-right: 0rem;
     font-size: 9px;
@@ -181,14 +193,14 @@ p{
         display:none;
     }
     .logo2{
-        display: inline;
-        padding-top: 0.8rem;
-        padding-bottom: 0.8rem;
-        width: 50%;
-        height: 50%;
+        display: block;
+        background-color: #e6e6e6;
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+        width: 425px;
     }
 .bajada2{
-        display: block;
+        display: none;
         padding-top: 0.1rem;
         padding-bottom: 0.1rem;
         padding-right: 0.1rem;
@@ -199,8 +211,28 @@ p{
         margin-left: 2rem;
         margin-right: 2rem;
     }
+.cards-padre-index{
+        grid-template-columns: 1fr;
+    }
 .cards-padre{
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(3,3fr);
+    padding-top: 0rem;
+    padding-bottom: 2rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    gap: 0rem;
+}
+.img-cards{
+    width: 130px;
+    height: 130px;
+    margin-top: 1rem;
+}
+.boton-cards{
+    font-size: 12px;
+    padding: 4px;
+}
+h2{
+    font-size: 14px;
 }
     p{
         margin-left: 2rem;
@@ -213,7 +245,7 @@ p{
         }
     .bajada{
         padding-top: 1rem;
-        padding-bottom: 1rem;
+        padding-bottom: 0rem;
         padding-left: 0rem;
         padding-right: 0rem;
         font-size: 9px;
@@ -223,13 +255,12 @@ p{
         }
         .logo2{
             display: inline;
-            padding-top: 0.8rem;
-            padding-bottom: 0.8rem;
-            width: 50%;
-            height: 50%;
+            padding-top: 0rem;
+            padding-bottom: 0rem;
+            width: 375px;
         }
     .bajada2{
-        display: block;
+        display: none;
         padding-top: 0.1rem;
         padding-bottom: 0.1rem;
         padding-right: 0.1rem;
@@ -240,8 +271,21 @@ p{
             margin-left: 1rem;
             margin-right: 1rem;
         }
+        .cards-padre-index{
+            grid-template-columns: 1fr;
+        }
     .cards-padre{
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(3,3fr);
+        padding-top: 0rem;
+        padding-bottom: 2rem;
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+        gap: 0rem;
+    }
+    .img-cards{
+        width: 120px;
+        height: 120px;
+        margin-top: 1rem;
     }
         p{
             margin-left: 1rem;
@@ -253,7 +297,7 @@ p{
     width: 320px;
     }.bajada{
         padding-top: 1rem;
-        padding-bottom: 1rem;
+        padding-bottom: 0rem;
         padding-left: 0rem;
         padding-right: 0rem;
         font-size: 8px;
@@ -263,13 +307,12 @@ p{
         }
         .logo2{
             display: inline;
-            padding-top: 0.8rem;
-            padding-bottom: 0.8rem;
-            width: 50%;
-            height: 50%;
+            padding-top: 0rem;
+            padding-bottom: 0rem;
+            width: 320px
         }
         .bajada2{
-            display: block;
+            display: none;
             padding-top: 0.1rem;
             padding-bottom: 0.1rem;
             padding-right: 0.1rem;
@@ -280,8 +323,28 @@ p{
             margin-left: 1rem;
             margin-right: 1rem;
         }
-        .cards-padre{
+        .cards-padre-index{
             grid-template-columns: 1fr;
+        }
+        .cards-padre{
+            grid-template-columns: repeat(3,3fr);
+            padding-top: 0rem;
+            padding-bottom: 1.5rem;
+            padding-right: 0.5rem;
+            padding-left: 0.5rem;
+            gap: 0rem;
+        }
+        .img-cards{
+            width: 100px;
+            height: 100px;
+            margin-top: 1rem;
+        }
+        .boton-cards{
+            font-size: 10px;
+            padding: 4px;
+        }
+        h2{
+            font-size: 12px;
         }
         li{
             padding: 2px;
