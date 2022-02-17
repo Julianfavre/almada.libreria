@@ -237,6 +237,58 @@ h2{
         margin-right: 2rem;
     }
 }
+
+@media screen and (max-width:393px){
+    .logo{
+        width: 393px;
+        display:none
+        }
+    .bajada{
+        padding-top: 1rem;
+        padding-bottom: 0rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
+        font-size: 9px;
+        }
+        .logo2{
+            display: inline;
+            padding-top: 0rem;
+            padding-bottom: 0rem;
+            width: 393px;
+        }
+    .bajada2{
+        display: none;
+        padding-top: 0.1rem;
+        padding-bottom: 0.1rem;
+        padding-right: 0.1rem;
+        padding-left: 0.1rem;
+        }
+#nuestros-servicios, #como-comprar{
+            font-size: 12px;
+            margin-left: 1rem;
+            margin-right: 1rem;
+        }
+        .cards-padre-index{
+            grid-template-columns: 1fr;
+        }
+    .cards-padre{
+        grid-template-columns: repeat(3,3fr);
+        padding-top: 0rem;
+        padding-bottom: 2rem;
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+        gap: 0rem;
+    }
+    .img-cards{
+        width: 120px;
+        height: 120px;
+        margin-top: 1rem;
+    }
+        p{
+            margin-left: 1rem;
+            margin-right: 1rem;
+        }
+}
 @media screen and (max-width:375px){
     .logo{
         width: 375px;
