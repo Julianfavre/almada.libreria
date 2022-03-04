@@ -12,6 +12,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Hind:wght@600;700&family=Kanit:wght@400;500&display=swap" rel="stylesheet">
     <!--HOJAS DE ESTILO-->
     <link rel="stylesheet" href="styles/styles.css">
+    <!-- Meta Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '3050679118477578');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=3050679118477578&ev=PageView&noscript=1"
+    /></noscript>
+  <!-- End Meta Pixel Code -->
 </head>
 <body>
     <header>
@@ -61,18 +78,18 @@
     </nav>
     <div class="cards-padre-index">
       <div class="cards-hijo">
-        <h2>LIBRERÍA</h2>
-        <div> <img src="./img/Card-Libreria.png" class="img-cards" alt="libreria"></div>
+        <h2 class="h2index">LIBRERÍA</h2>
+        <div> <img src="./img/Card-Libreria.png" class="img-cards-index" alt="libreria"></div>
         <button class="boton-cards"><a class="botones" href="./vistas/libreria.html">VER PRODUCTOS</a></button>
       </div>
       <div class="cards-hijo">
-        <h2>PAPELERÍA</h2>
-        <div> <img src="./img/Card-Papeleria.png" class="img-cards" alt="papeleria"></div>
+        <h2 class="h2index">PAPELERÍA</h2>
+        <div> <img src="./img/Card-Papeleria.png" class="img-cards-index" alt="papeleria"></div>
         <button class="boton-cards"><a class="botones" href="./vistas/papeleria.html">VER PRODUCTOS</a></button>
       </div>
       <div class="cards-hijo">
-        <h2>COMPUTACIÓN</h2>
-        <div> <img src="./img/Card-Computacion.png" class="img-cards" alt="computacion"></div>
+        <h2 class="h2index">COMPUTACIÓN</h2>
+        <div> <img src="./img/Card-Computacion.png" class="img-cards-index" alt="computacion"></div>
         <button class="boton-cards"><a class="botones" href="./vistas/computacion.html">VER PRODUCTOS</a></button>
       </div>
     </div>
