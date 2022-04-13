@@ -137,6 +137,11 @@ a{
     margin-bottom: 4rem;
     padding-bottom: 2rem;
 }
+.servicios{
+    text-align: center;
+    font-weight:bold;
+    font-family:'Hind', sans-serif;
+}
 #como-comprar{
     font-size: 18px;
     margin-right: 8rem;
